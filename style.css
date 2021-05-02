@@ -1,0 +1,37 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+#countries{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 20px;
+}
+.country{
+   border: 1px solid goldenrod;
+   border-radius: 20px;
+   padding: 20px;
+   text-align: center;
+   width: 300px;
+}
+.country-name{
+   font-size: 42px;
+   color: magenta;
+}
+
+#flag{
+   width: 250px;
+}
+
+#country-details{
+   text-align: center;
+   background: black;
+   color: burlywood;
+   font-family: arial;
+   line-height: 28px;
+   margin: 0;
+}
+
+.padding-add{
+   padding: 30px;
+}
